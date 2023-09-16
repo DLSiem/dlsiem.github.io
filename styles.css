@@ -74,6 +74,9 @@ tr:hover:not(:first-child) {
   background-color: #17354e;
   cursor: pointer;
 }
+#day {
+  color: rgb(99, 6, 115);
+}
 
 .time {
   margin-top: 2rem;
