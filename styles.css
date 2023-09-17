@@ -20,12 +20,22 @@ body {
   user-select: none;
 }
 .timeTableContainer {
-  position: absolute;
-  top: 45%;
+  position: relative;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
   width: 90%;
   user-select: none;
+  margin-bottom: 1rem;
+}
+header {
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: #093d74;
+  height: 5rem;
 }
 
 .header {
@@ -41,7 +51,7 @@ body {
 .header h4 {
   color: rgb(247, 37, 37);
 }
-b {
+.timeTableContainer b {
   color: rgb(247, 37, 37);
 }
 
@@ -75,14 +85,14 @@ tr:hover:not(:first-child) {
   cursor: pointer;
 }
 #day {
-  color: rgb(99, 6, 115);
+  color: rgb(183, 50, 9);
 }
 
 .time {
   margin-top: 2rem;
   text-align: center;
   color: #001c30;
-  background-color: #eaf2f5;
+  background-color: #8acfe7;
   position: relative;
   left: 50%;
   width: fit-content;
@@ -94,7 +104,7 @@ tr:hover:not(:first-child) {
 
 .time:hover {
   cursor: pointer;
-  background-color: #d4e6f1;
+  background-color: #b7e6f6;
   transition: ease-in-out 500ms;
 }
 .time h3 {
@@ -123,6 +133,23 @@ tr:hover:not(:first-child) {
 
 .link-favicon {
   display: none;
+}
+footer {
+  background-color: rgb(49, 60, 68);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  user-select: none;
+  margin-top: 3rem;
+  height: 10vh;
+  color: #b7c6d7;
+}
+footer a {
+  color: #719c75;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
