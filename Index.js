@@ -36,4 +36,5 @@ function addLeadingZero(value) {
 setInterval(updateClock, 1000);
 
 // Initial call to update the clock
+
 updateClock();

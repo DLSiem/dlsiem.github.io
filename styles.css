@@ -81,15 +81,16 @@ td {
   text-align: center;
 }
 
-tr:nth-child(2) {
-  text-decoration: line-through;
-  color: #b7c6d7;
-}
-
 tr:hover:not(:first-child) {
   background-color: #17354e;
   cursor: pointer;
 }
+
+.done {
+  text-decoration: line-through;
+  color: #b7c6d7;
+}
+
 #day {
   color: rgb(183, 50, 9);
 }
