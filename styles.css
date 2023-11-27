@@ -33,7 +33,7 @@ header {
 
 .container {
   padding: 1rem;
-  display: none;
+  display: block;
 }
 
 .image-container {
