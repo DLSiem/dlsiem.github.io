@@ -294,9 +294,10 @@ footer a {
 
 .classtt .courseNames p:hover {
   cursor: pointer;
-  color: #c8dea2;
+  color: #1eff00;
+  font-size: 1.1rem;
   font-weight: 600;
-  transition: ease-in-out 300ms;
+  transition: ease-in-out 200ms;
 }
 
 td:hover:not(:first-child) {
