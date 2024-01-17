@@ -291,10 +291,13 @@ footer a {
 .classtt .courseNames {
   margin-top: 1rem;
 }
+.classtt .courseNames p {
+  width: fit-content;
+}
 
 .classtt .courseNames p:hover {
   cursor: pointer;
-  color: #1eff00;
+  color: #68f656;
   font-size: 1.1rem;
   font-weight: 600;
   transition: ease-in-out 200ms;
