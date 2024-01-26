@@ -296,7 +296,7 @@ footer a {
 }
 .classtt .courseNames a {
   text-decoration: none;
-  color: #00eeff;
+  color: #ecff6e;
 }
 .classtt .courseNames a:hover {
   text-decoration: underline;
@@ -329,4 +329,8 @@ td:hover:not(:first-child) {
     width: auto;
     margin-right: 3rem;
   }
+}
+
+.icon {
+  background: url("Files/di.png");
 }
