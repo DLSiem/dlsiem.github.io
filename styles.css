@@ -15,6 +15,12 @@ header {
   margin-bottom: 1rem;
   height: 3rem;
 }
+
+.parentContainer {
+  /* minimum height to screen */
+  min-height: 100vh;
+}
+
 .coll {
   background-color: #1a5076;
   color: #b7c6d7;
