@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: #001c30;
+  /* background-color: #001c30; */
+  background-color: #010c14;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 100vh;
@@ -82,18 +83,6 @@ header {
   transform: translate(-50%);
 }
 
-.timeTableContainer {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-  width: 90%;
-  user-select: none;
-  margin-bottom: 1rem;
-}
 .headertt {
   text-align: center;
 }
@@ -112,9 +101,11 @@ header {
   color: rgb(247, 37, 37);
 }
 
-.table {
+/* .table {
   margin-top: 2rem;
-}
+  background-color: #59b0ee;
+  padding: 1rem;
+} */
 
 table {
   width: 100%;
@@ -291,6 +282,11 @@ footer a {
   padding: 1.5rem;
 }
 
+.exam {
+  width: 46rem;
+  border-radius: 0.08rem;
+}
+
 .ttheading {
   text-align: center;
   margin-bottom: 1rem;
@@ -323,16 +319,16 @@ footer a {
 .classtt .courseNames p:hover {
   cursor: pointer;
   color: #c4ddf7;
-  font-size: 1.02rem;
+  font-size: 1.01rem;
   transition: ease-in-out 200ms;
 }
 
 td:hover:not(:first-child) {
   background-color: #04364ad0;
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: 1.01rem;
   transition: ease-in-out 200ms;
-  font-weight: 600;
+  /* font-weight: 5; */
 }
 
 @media (min-width: 992px) {
