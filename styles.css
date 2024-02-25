@@ -136,10 +136,17 @@ td {
   text-align: center;
 }
 
-.done {
+.done td {
   text-decoration: line-through;
   color: #6f757c;
 }
+
+.next td {
+  color: #ff0202d6;
+
+  transition: ease-in-out 500ms;
+}
+
 tr {
   background-color: #05202bd0;
 }
