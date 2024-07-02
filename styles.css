@@ -9,7 +9,74 @@ body {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 100vh;
+  overflow-x: hidden;
 }
+
+/* Movie Card styles */
+.movie-card {
+  background: #1e1e1e;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.movie-title {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.movie-image {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+.movie-details {
+  font-size: 16px;
+  color: #bbb;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.movie-details p {
+  margin: 5px 0;
+}
+
+.movie-details a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.movie-details a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .movie-title {
+    font-size: 20px;
+  }
+
+  .movie-details {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .movie-title {
+    font-size: 18px;
+  }
+
+  .movie-details {
+    font-size: 12px;
+  }
+}
+
+/* Movei Card Style ends */
 
 header {
   background-color: #053e6a;
@@ -20,6 +87,11 @@ header {
 .parentContainer {
   /* minimum height to screen */
   min-height: 100vh;
+  padding: 0 0.5rem;
+}
+
+.container {
+  padding: 1rem;
 }
 
 .coll {
