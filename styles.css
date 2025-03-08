@@ -30,6 +30,11 @@ body {
   padding: 0;
 }
 
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -183,9 +188,23 @@ th {
 
 /* Footer */
 footer {
-  text-align: center;
   padding: 20px;
   background-color: var(--footer-background);
+  display: flex;
+  justify-content: space-between;
+}
+footer a {
+  color: var(--footer-text);
+  text-decoration: none;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+ul {
+  list-style-type: none;
+  padding: 2px 0;
 }
 
 .social a {
@@ -252,6 +271,10 @@ footer {
   th,
   td {
     font-size: 14px;
+  }
+  footer {
+    flex-direction: column;
+    text-align: center;
   }
 }
 
