@@ -89,6 +89,7 @@ body {
 #toc a:hover {
   border-left: 3px solid var(--link-color);
   background-color: var(--background-color);
+  background-color: var(--time-background);
 }
 /* Styling for Subcontent (Indented links) */
 #toc .subcontent {
@@ -310,4 +311,41 @@ p {
   color: var(--paragraph-color);
   font-size: 1.1rem;
   margin-block: 10px;
+}
+
+/* MOVIES */
+/* Hide checkbox */
+.toggle {
+  display: none;
+}
+
+/* Initially hide the details */
+.details {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* When checkbox is checked, expand details */
+.toggle:checked + .expand-btn + .details {
+  max-height: 200px; /* Adjust height as needed */
+  opacity: 1;
+}
+
+/* Expand Button */
+.expand-btn {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #ff9800;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.expand-btn:hover {
+  background: #e68900;
 }
