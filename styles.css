@@ -217,6 +217,22 @@ ul {
   color: var(--primary-color);
 }
 
+/* Studies */
+.studies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.topics {
+  color: var(--primary-color);
+
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: monospace;
+}
+
 /* Back to Top Button */
 .back-to-top {
   position: fixed;
